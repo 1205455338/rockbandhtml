@@ -1,0 +1,91 @@
+/* Mobile */
+
+
+/* Tablet & Mobile */
+
+@media (max-width: 1023px) {
+    .btn {
+        padding: 16px 17px;
+    }
+    .contact-form {
+        padding-top: 32px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-info {
+        line-height: 2;
+        padding-top: 32px;
+    }
+    .contact-submit-btn {
+        font-size: 18px;
+    }
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 740px) {
+    .s-full-width {
+        width: 100%;
+        display: block;
+    }
+    .s-coll-full {
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #ccc;
+        padding: 5px 41px;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+    }
+    #header .mobile-menu-btn:hover .menu-icon {
+        color: #000;
+    }
+    #content .member-item {
+        width: 100%;
+        margin-top: -20px;
+    }
+    .places-list {
+        margin-top: 16px;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+}
